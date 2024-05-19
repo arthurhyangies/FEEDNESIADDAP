@@ -1,0 +1,248 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login Navbar Styles */
+
+.login-navbar {
+    display: flex;
+    justify-content: end;
+    background-color: #20493c;
+}
+.nav__item{
+    justify-content: end;
+    margin: 20px;
+}
+.close-icon {
+    cursor: pointer;
+    padding: 45px;
+}
+
+/* Login Container Styles */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20493c;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    max-width: 100%;
+    margin-top: -57px;
+    margin-bottom: 92px;
+}
+.logo {
+    align-self: center;
+    aspect-ratio: 1;
+    width: 180px;
+    max-width: 100%;
+}
+.logo-text {
+    font-family: Jaldi, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -6px;
+}
+
+/* Button Styles */
+
+.google-login {
+    display: flex;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 480px;
+    max-width: 100%;
+    padding: 6px 33px;
+}
+.facebook-login {
+    display: flex;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 480px;
+    max-width: 100%;
+    margin-top: 27px;
+    padding: 13px 33px;
+}
+.email-login {
+    display: flex;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 480px;
+    max-width: 100%;
+    margin-top: 27px;
+    padding: 13px 33px;
+}
+
+.google-icon {
+    object-fit: auto;
+    object-position: center;
+    aspect-ratio: 0.93;
+    width: 58px;
+    margin-right: 20px;
+}
+.facebook-icon {
+    object-fit: auto;
+    object-position: center;
+    aspect-ratio: 1;
+    width: 40px;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+.email-icon {
+    object-fit: auto;
+    object-position: center;
+    aspect-ratio: 1.54;
+    width: 48px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.google-text {
+    font-family: Jaldi, sans-serif;
+    color: #20493c;
+    flex-grow: 0.2;
+    font-size: 28px;
+    margin: auto 0;
+}
+.facebook-text {
+    font-family: Jaldi, sans-serif;
+    color: #20493c;
+    flex-grow: 0.79;
+    font-size: 28px;
+}
+.email-text {
+    font-family: Jaldi, sans-serif;
+    color: #20493c;
+    flex-grow: 0.5;
+    font-size: 28px;
+}
+
+/* Footer Styles */
+
+.footer {
+    color: #ffffff;
+    font-family: Jaldi;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 148px;
+    padding-bottom: 105px;
+}
+
+/* Media Queries for Galaxy A54 */
+
+@media (max-width: 360px) {
+        
+    .close-icon {
+        width: 109px;
+        padding-right: 27px;
+        margin-top: -20px;
+    }
+
+    .login-container {
+        padding: 64px;
+    }
+
+    .logo-wrapper {
+        width: 232px;
+        margin-top: -104px;
+        margin-bottom: 90px;
+    }
+    .logo {
+        width: 109px;
+    }
+    .logo-text {
+        font-family: Jaldi, sans-serif;
+        color: #ffffff;
+        text-align: center;
+        font-size: 38px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 3px;
+    }
+
+    .google-login {
+        border-radius: 85.75px;
+        width: 232px;
+        padding: 0px 11px;
+    }
+    .facebook-login {
+        border-radius: 85.75px;
+        width: 232px;
+        margin-top: 19px;
+        padding: 8.5px 11px;
+    }
+    .email-login {
+        border-radius: 85.75px;
+        width: 232px;
+        margin-top: 19px;
+        padding: 9px 11px;
+    }
+    
+    .google-icon {
+        width: 42px;
+        margin-right: 20px;
+    }
+    .facebook-icon {
+        width: 28px;
+        margin-top: 0px;
+        margin-left: 7px;
+    }
+    .email-icon {
+        width: 34px;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    
+    .google-text {
+        font-size: 16px;
+        margin-left: -13.25px;       
+    }
+    .facebook-text {
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    .email-text {
+        font-size: 16px;
+        margin-left: 3px;
+    }
+    
+    .footer {
+        font-size: 16px;
+        margin-top: 175px;
+        padding-bottom: 6px;
+    }
+}
+
+/* Media Queries for iPad Mini 6 */
+
+@media (min-height: 1133px) {
+
+    .logo-wrapper {
+        margin-bottom: 118px;
+    }
+
+    .footer {
+        margin-top: 170px;
+        padding-bottom: 110px;
+    }
+}

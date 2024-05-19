@@ -1,0 +1,157 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Jaldi", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 80px;
+  
+}
+h4{
+    font-size: 1.75em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.kotak{
+    position: relative;
+    min-width: 70%;
+
+}
+.kotak .list{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    background: #f5f5f5;
+  
+}
+.kotak .list .imgBx{
+    position: relative;
+    width: 220px;
+    height: 140px;
+     border-radius: 10px;
+     overflow: hidden;
+     margin-right: 10px;   
+}
+.kotak .list .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kotak .list .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #333;
+}
+
+.tes1{
+
+   display: flex;
+   align-items: center;
+
+}
+
+p{
+    margin-bottom: 0px!important;
+}
+.tes {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: start;
+}
+.tes10{
+    justify-content: space-between ;
+    align-items: center;
+    display: flex;
+}
+list:after {
+    content: "";
+    display: table;
+    clear: both;}
+.teks{
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    justify-self: center;
+    height: fit-content;
+}
+.test2{
+    text-align: center;
+height: fit-content;
+}
+
+.img-heart{
+    justify-content: end;   
+    width: 25px;
+    height: 25px;
+    color:#20493C;
+    padding-right: 50px;
+  
+}
+
+@media  screen and (max-width: 767px){
+    
+    .tes,.tes1{
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+    .img-heart{
+        justify-content: end;   
+        width: 25px;
+        height: 25px;
+        color:#20493C;
+        padding-left: 200px;
+   
+      
+    }
+    
+.kotak .list{
+    position: relative;
+    display: flex;
+    height:100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    background: #f5f5f5;
+  
+}
+.kotak .list .imgBx{
+    position: relative;
+    max-width: 60px;
+    height: 60px;
+     border-radius: 10px;
+  
+     margin-right: 10px;   
+}
+.kotak .list .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+}
